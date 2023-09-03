@@ -4,7 +4,7 @@ const navListContainer = document.querySelector(".navlist-container");
 const hambugerMenuContainerLine1 = document.querySelector(".line1");
 const hambugerMenuContainerLine2 = document.querySelector(".line2");
 const hambugerMenuContainerLine3 = document.querySelector(".line3");
-hambugerMenuContainer.addEventListener("click", () => {
+humburgerMenuContainer.addEventListener("click", () => {
     if (hambugerMenuContainer.classList.contains("isOpened")) {
         hambugerMenuContainer.classList.remove("isOpened");
         hambugerMenuContainerLine2.classList.remove("hideLine2");

@@ -117,7 +117,7 @@ section {
   border-top: 1px solid rgba(255, 255, 255, 0.35);
   box-sizing: border-box;
   box-shadow: 18px 16px 25px var(--box-shadow-color);
-  background: url("/komoon-102.jpg");
+  background: url("/public/images/komoon-102.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
