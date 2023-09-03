@@ -1,10 +1,12 @@
+// @ts-nocheck
 const inputs = document.querySelectorAll(".field");
 const hambugerMenuContainer = document.querySelector(".humburgerMenuContainer");
 const navListContainer = document.querySelector(".navlist-container");
 const hambugerMenuContainerLine1 = document.querySelector(".line1");
 const hambugerMenuContainerLine2 = document.querySelector(".line2");
 const hambugerMenuContainerLine3 = document.querySelector(".line3");
-humburgerMenuContainer.addEventListener("click", () => {
+// @ts-ignore
+hambugerMenuContainer.addEventListener("click", () => {
     if (hambugerMenuContainer.classList.contains("isOpened")) {
         hambugerMenuContainer.classList.remove("isOpened");
         hambugerMenuContainerLine2.classList.remove("hideLine2");
